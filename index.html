@@ -9,12 +9,90 @@
             background-color: black;
             color: #39FF14; /* Verde Neón */
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #111;
+            padding: 20px;
             text-align: center;
+        }
+
+        header h1 {
+            color: #39FF14;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #39FF14;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        footer {
+            background-color: #111;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <h1>Bienvenido a Witman’s</h1>
-    <p>Este es el sitio web oficial.</p>
+
+    <header>
+        <h1>Bienvenidos a Witman’s</h1>
+        <p>Tu tienda de accesorios automotrices y más</p>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#gallery">Galería</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <div id="about" class="content">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos expertos en la venta e instalación de accesorios automotrices, ofreciendo productos de alta calidad y servicio personalizado.</p>
+    </div>
+
+    <div id="services" class="content">
+        <h2>Servicios</h2>
+        <p>Instalación de defensas metálicas, estribos, parrillas de techo y más. Consulta nuestros servicios y mejora tu vehículo.</p>
+    </div>
+
+    <div id="gallery" class="content">
+        <h2>Galería</h2>
+        <p>Aquí podrás ver algunos de nuestros productos e instalaciones.</p>
+        <!-- Aquí puedes agregar imágenes o enlaces a tus productos -->
+    </div>
+
+    <div id="contact" class="content">
+        <h2>Contacto</h2>
+        <p>Para más información, no dudes en escribirnos a: <a href="mailto:info@witmans.com">info@witmans.com</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Witman’s. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
